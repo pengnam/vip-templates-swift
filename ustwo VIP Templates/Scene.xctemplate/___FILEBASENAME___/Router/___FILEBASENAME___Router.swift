@@ -10,7 +10,7 @@ import UIKit
 
 protocol ___VARIABLE_sceneName___RouterProtocol {
 
-    weak var viewController: ___VARIABLE_sceneName___ViewController? { get }
+    var viewController: ___VARIABLE_sceneName___ViewController? { get }
 
     func navigateToSomewhere()
 }
