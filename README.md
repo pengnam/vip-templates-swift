@@ -1,3 +1,9 @@
+# Changelist for Sean's version
+
+- Remove `weak` tag in protocol
+
+- Remove force unwrapping
+
 # VIP Xcode Templates
 
 Xcode templates based on [Clean Swift](https://clean-swift.com) for generating Swift source code in View Interactor Presenter architecture.
