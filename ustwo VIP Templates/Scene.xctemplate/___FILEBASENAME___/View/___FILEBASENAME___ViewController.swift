@@ -19,8 +19,8 @@ protocol ___VARIABLE_sceneName___ViewControllerOutput {
 
 final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
-    var output: ___VARIABLE_sceneName___ViewControllerOutput!
-    var router: ___VARIABLE_sceneName___RouterProtocol!
+    var output: ___VARIABLE_sceneName___ViewControllerOutput?
+    var router: ___VARIABLE_sceneName___RouterProtocol?
 
 
     // MARK: - Initializers
@@ -64,7 +64,7 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
         // TODO: Ask the Interactor to do some work
 
-        output.doSomething()
+        output?.doSomething()
     }
 }
 
